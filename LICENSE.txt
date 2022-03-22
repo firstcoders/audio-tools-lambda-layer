@@ -1,0 +1,5 @@
+## License
+
+* FFmpeg: GPLv2.1 <http://ffmpeg.org/legal.html>, John Van Sickle's static build 20210225 GPL v3 <https://johnvansickle.com/ffmpeg/>
+* Sox: GPLv2 <https://sourceforge.net/p/sox/code/ci/master/tree/LICENSE.GPL>, Static build <https://github.com/serverlesspub/sox-aws-lambda-binary/bin>
+* Lame: LGPL <https://lame.sourceforge.io/index.php>, Static build <https://github.com/serverlesspub/sox-aws-lambda-binary/bin>
