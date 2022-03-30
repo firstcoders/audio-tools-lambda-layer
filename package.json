@@ -3,7 +3,7 @@
   "author": "Sound Web Services LTD",
   "description": "Static build of FFmpeg/FFprobe, Sox & Lame for Amazon Linux 2, packaged as a Lambda layer.",
   "license": "SEE LICENSE IN LICENSE.txt",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "publishConfig": {
     "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
