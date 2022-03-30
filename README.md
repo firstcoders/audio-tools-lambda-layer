@@ -1,4 +1,6 @@
-# FFmpeg/FFprobe/Sox/Lame Lambda Layer for Amazon Linux 2 AMIs
+# Audio Tools Lambda Layer
+
+FFmpeg/FFprobe/Sox/Lame Lambda Layer for Amazon Linux 2 AMIs
 
 Static build of FFmpeg/FFprobe, Sox & Lame for Amazon Linux 2, packaged as a Lambda layer.
 
