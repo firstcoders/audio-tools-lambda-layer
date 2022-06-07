@@ -6,7 +6,7 @@ Resources:
   LambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: sws-audiotools
+      LayerName: !Sub '${AWS::StackName}-LambdaLayer'
       Description: AudioTools for AWS Lambda
       ContentUri: layer.zip
       CompatibleRuntimes:
