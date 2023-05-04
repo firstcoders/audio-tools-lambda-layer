@@ -1,18 +1,23 @@
 {
   "name": "@soundws/audio-tools-lambda-layer",
-  "author": "Sound Web Services LTD",
   "description": "Static build of FFmpeg/FFprobe, Sox & Lame for Amazon Linux 2, packaged as a Lambda layer.",
   "license": "SEE LICENSE IN LICENSE.txt",
-  "version": "1.0.3-beta.0",
-  "private": true,
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "files": [
-    "template.yaml",
-    "layer.zip"
+  "version": "1.0.3-beta.2",
+  "author": "The First Coders Team (https://www.firstcoders.co.uk)",
+  "email": "support@firstcoders.co.uk",
+  "bugs": "https://github.com/sound-ws/audio-tools-lambda-layer/issues",
+  "homepage": "https://github.com/sound-ws/audio-tools-lambda-layer",
+  "contributors": [
+    {
+      "name": "Mark Cremer",
+      "email": "mark@firstcoders.co.uk",
+      "url": "http://www.firstcoders.co.uk"
+    }
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sound-ws/audio-tools-lambda-layer.git"
