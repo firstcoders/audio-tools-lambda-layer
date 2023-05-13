@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/sound-ws/audio-tools-lambda-layer/compare/@soundws/audio-tools-lambda-layer@1.0.3-beta.3...@soundws/audio-tools-lambda-layer@1.0.3) (2023-05-13)
+
+**Note:** Version bump only for package @soundws/audio-tools-lambda-layer
+
+
+
+
+
 ## [1.0.3-beta.3](https://github.com/sound-ws/audio-tools-lambda-layer/compare/@soundws/audio-tools-lambda-layer@1.0.3-beta.2...@soundws/audio-tools-lambda-layer@1.0.3-beta.3) (2023-05-04)
 
 **Note:** Version bump only for package @soundws/audio-tools-lambda-layer
