@@ -1,2 +1,3 @@
 dist
 .aws-sam
+packaged.yaml
