@@ -25,7 +25,7 @@ Outputs:
 
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: soundws-audiotools-lambda-layer
+    Name: soundws-audio-tools-lambda-layer
     Description: >
       Static build of FFmpeg/FFprobe/Sox/Lame for Amazon Linux 2,
       packaged as a Lambda layer. Bundles FFmpeg N-56320-ge937457b7b-static, Sox v14.4.2 and Lame 3.99.5
@@ -34,6 +34,6 @@ Metadata:
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
     Labels: ['layer', 'lambda', 'ffmpeg', 'ffprobe', 'sox', 'lame']
-    HomePageUrl: https://github.com/sound-ws/audiotools-lambda-layer
+    HomePageUrl: https://github.com/sound-ws/audio-tools-lambda-layer
     SemanticVersion: 0.1.0
-    SourceCodeUrl: https://github.com/sound-ws/audiotools-lambda-layer
+    SourceCodeUrl: https://github.com/sound-ws/audio-tools-lambda-layer
