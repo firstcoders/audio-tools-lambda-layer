@@ -2,7 +2,7 @@
   "name": "@soundws/audio-tools-lambda-layer",
   "description": "Static build of FFmpeg/FFprobe, Sox & Lame for Amazon Linux 2, packaged as a Lambda layer.",
   "license": "SEE LICENSE IN LICENSE.txt",
-  "version": "1.0.4-beta.0",
+  "version": "1.0.4-beta.1",
   "author": "The First Coders Team (https://www.firstcoders.co.uk)",
   "email": "support@firstcoders.co.uk",
   "bugs": "https://github.com/sound-ws/audio-tools-lambda-layer/issues",
@@ -14,6 +14,10 @@
       "url": "http://www.firstcoders.co.uk"
     }
   ],
+  "files": [
+    "dist",
+    "layer.zip"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -23,6 +27,10 @@
     "url": "https://github.com/sound-ws/audio-tools-lambda-layer.git"
   },
   "scripts": {
+    "build": "sam build",
+    "qa": "sam validate --lint",
+    "prepublishOnly": "npm run build",
+    "prepack": "rm -rf dist/ && mkdir -p dist/aws-sam && cp -R .aws-sam/build dist/aws-sam",
     "sam:publish": "sam package --output-template-file packaged.yaml --s3-bucket $AWS_SAM_PACKAGE_BUCKET_NAME --region ${AWS_REGION:=us-east-1} && sam publish --template packaged.yaml --region ${AWS_REGION:=us-east-1} --semantic-version $npm_package_version"
   }
 }
