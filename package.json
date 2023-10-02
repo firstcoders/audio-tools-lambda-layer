@@ -31,6 +31,6 @@
     "qa": "sam validate --lint",
     "prepublishOnly": "npm run build",
     "prepack": "rm -rf dist/ && mkdir -p dist/aws-sam && cp -R .aws-sam/build dist/aws-sam",
-    "sam:publish": "sam package --template-file .aws-sam/build/template.yaml --output-template-file packaged.yaml --s3-bucket $AWS_SAM_PACKAGE_BUCKET_NAME --region $AWS_REGION && sam publish --template packaged.yaml --region $AWS_REGION --semantic-version $npm_package_version"
+    "sam:publish": "npm run build && sam package --template-file .aws-sam/build/template.yaml --output-template-file packaged.yaml --s3-bucket $AWS_SAM_PACKAGE_BUCKET_NAME --region $AWS_REGION && sam publish --template packaged.yaml --region $AWS_REGION --semantic-version $npm_package_version"
   }
 }
