@@ -29,7 +29,7 @@ Metadata:
     Description: >
       Static build of FFmpeg/FFprobe/Sox/Lame for Amazon Linux 2,
       packaged as a Lambda layer. Bundles FFmpeg N-56320-ge937457b7b-static, Sox v14.4.2 and Lame 3.99.5
-    Author: Sound Web Services
+    Author: Team First Coders
     SpdxLicenseId: GPL-2.0-or-later
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
