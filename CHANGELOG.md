@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6-beta.2](https://github.com/firstcoders/audio-tools-lambda-layer/compare/@firstcoders/audio-tools-lambda-layer@1.0.6-beta.1...@firstcoders/audio-tools-lambda-layer@1.0.6-beta.2) (2024-07-25)
+
+**Note:** Version bump only for package @firstcoders/audio-tools-lambda-layer
+
+
+
+
+
 ## 1.0.6-beta.1 (2024-07-25)
 
 **Note:** Version bump only for package @firstcoders/audio-tools-lambda-layer
