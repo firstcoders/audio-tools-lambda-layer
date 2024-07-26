@@ -34,6 +34,6 @@ Metadata:
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
     Labels: ['layer', 'lambda', 'ffmpeg', 'ffprobe', 'sox', 'lame']
-    HomePageUrl: https://github.com/sound-ws/audio-tools-lambda-layer
+    HomePageUrl: https://github.com/firstcoders/audio-tools-lambda-layer
     SemanticVersion: 0.1.0
-    SourceCodeUrl: https://github.com/sound-ws/audio-tools-lambda-layer
+    SourceCodeUrl: https://github.com/firstcoders/audio-tools-lambda-layer
