@@ -35,6 +35,6 @@
     "sam:publish": "npm run build && sam package --template-file .aws-sam/build/template.yaml --output-template-file packaged.yaml --s3-bucket $AWS_SAM_PACKAGE_BUCKET_NAME --region $AWS_REGION && sam publish --template packaged.yaml --region $AWS_REGION --semantic-version $npm_package_version"
   },
   "devDependencies": {
-    "esbuild": "^0.21.5"
+    "esbuild": "^0.23.1"
   }
 }
